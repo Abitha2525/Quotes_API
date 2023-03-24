@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+	width : 100%;
+	height : 100%;
+	display : flex;
+	justify-content : space-around;
+	align-items : center;
+	background : #dcdcde;
+	margin : 0px;
+	overflow : hidden;
+}
+#whole-container{
+	width : 30%;
+	height : 50%;
+	border : 1px solid black;
+	background : #f6f7f7;
+	border-radius : 5%;
+	position : absolute;
+	top : 20%;
+	display : flex;
+	justify-content : space-around;
+	align-items : center;
+	flex-direction : column;
+	box-shadow : 5px 5px #f6f7f7;
+}
+
+#category{
+	width : 50%;
+	height : 10%;
+	font-family : fangsong;
+	font-size : 1rem;
+}
+
+#proverb{
+	width : 80%;
+	height : 25%;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	font-family : fangsong;
+	font-size : 1rem;
+	text-align : center;
+}
