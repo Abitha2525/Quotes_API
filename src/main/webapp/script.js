@@ -18,7 +18,7 @@ document.getElementById("proverb").innerText = " Quotes here...";
 		 }
 	 }
 	 var category = document.getElementById("category").value;
-	 xhr.open("POST", "http://localhost:8080/Proverbs_API/Proverb");
+	 xhr.open("POST", "http://localhost:8080/Quotes_API/Proverb");
 	 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");	 
 	 xhr.send("category=" + category);
 	 
